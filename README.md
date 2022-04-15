@@ -14,23 +14,32 @@ Basic functions:
   + Each transaction should contain following data: amount, date, place(optional), comment (optional), image (optional).
 + Categories for transactions (Add / Edit / Remove category functions)
 + Statistics for user per period (month, year, week)
-  + Total spendings (and per category)
-  + Total income (and per category)
+  + Total spendings
+  + Total income
 
 
 ## Scatches of my site are down below:
 
 
-You can see [transaction page] with tags and here is mobile version:
+You can see [transaction page] with tags and here is mobile version(has the same tags):
 ![Image](https://github.com/Elena-lab3/Itirod/blob/lab2/photo_2022-03-16_22-25-35.jpg)
 
-## Categories page:
+## Categories page(has the same tags as on this page [transaction page] ):
 ![Image](https://github.com/Elena-lab3/Itirod/blob/lab2/photo_2022-03-16_22-25-46.jpg)
 
-## Statistics page:
-![Image](https://github.com/Elena-lab3/Itirod/blob/lab2/photo_2022-03-16_22-25-40.jpg)
+## Statistics page(main chart tags are on this page [transaction page] ):
+![Image](https://github.com/Elena-lab3/Itirod/blob/lab2/Statistics.jpg)
 
 ## Forms:
-![Image](https://github.com/Elena-lab3/Itirod/blob/lab2/photo_2022-03-16_22-25-18.jpg)
 
-[transaction page]: <https://www.figma.com/file/ZaX5R3QY5OHobsxs5GKOEm/?node-id=0%3A1>
+Add- and createForm:
+
+
+![Image](https://github.com/Elena-lab3/Itirod/blob/lab2/ADD.jpg)
+
+Login- and signupForm:
+
+
+![Image](https://github.com/Elena-lab3/Itirod/blob/lab2/SIGNUP.jpg)
+
+[transaction page]: https://www.figma.com/file/4l6ymnxaDdrCo3mksoMmRb/FinTrack-(Copy)?node-id=0%3A1
