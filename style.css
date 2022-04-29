@@ -44,7 +44,8 @@ body {
 .box__input {
     display: block;
     margin: auto;
-    margin-top: 15px;
+    margin-top: 35px;
+    margin-bottom: 40px;
     border: 2px solid #eebbc3;
     padding: 10px 50px;
     text-align: center;
@@ -56,7 +57,22 @@ body {
     transition: 200ms ease-out;
     outline: none;
 }
-
+.box__button_submit {
+    text-decoration: none;
+    display: block;
+    background: none;
+    color: #232946;
+    border: 2px solid #eebbc3;
+    border-radius: 24px;
+    font-size: 1.1em;
+    text-align: center;
+    margin: 25px auto; 
+    width: 70%;
+    transition: 200ms ease-out;
+    outline: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 #box__input__select {
     width: 227px;
 }
@@ -164,25 +180,10 @@ select {
     width: 300px;
 }
 
-.box__button_submit {
-    text-decoration: none;
-    display: block;
-    background: none;
-    color: #232946;
-    border: 2px solid #eebbc3;
-    border-radius: 24px;
-    font-size: 1.1em;
-    text-align: center;
-    margin: 10px auto;
-    width: 220px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    transition: 350ms;
-}
-
 .box__button_submit:hover {
     background-color: #eebbc3;
 }
+
 
 @media screen and (max-aspect-ratio: 1/1) {
     .box {

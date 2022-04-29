@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Categories</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-    <link rel="stylesheet" href="mainStyles.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="section.css">
@@ -51,11 +50,9 @@
                 <hr>
                 <li class="side-nav__li">
                     <div class="side-nav__str">
-                        <button class="side-nav__log-button">
-                            <a href="Login.html">
-                                <img class="side-nav__logout-img" src="images/logout.svg">
-                            </a>
-                        </button>
+                        <a href="Login.html" class="side-nav__log-button">
+                            <img class="side-nav__logout-img" src="images/logout.svg">
+                        </a>
                         <a class="side-nav__p" href="Login.html">Log out</a>
                     </div>
                 </li>
@@ -63,12 +60,12 @@
         </nav>
     </header>
     <main>
-        <button class="add-button">
+        <a href="addForm.html" class="add-button">
             <div>
                 <img class="add-button__img" src="images/plus.svg"> 
-                <a href="addForm.html">Add categories</a>
+                <p>Add categories</p>
             </div>
-        </button>
+        </a>
         <table class="categories-table">
             <tr>
                 <td class="td-type-categories">Type</td>

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Statistics</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-    <link rel="stylesheet" href="mainStyles.css">
+    <link rel="stylesheet" href="statisticsStyles.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="section.css">
@@ -50,11 +50,9 @@
                 <hr>
                 <li class="side-nav__li">
                     <div class="side-nav__str">
-                        <button class="side-nav__log-button">
-                            <a href="Login.html">
-                                <img class="side-nav__logout-img" src="images/logout.svg">
-                            </a>
-                        </button>
+                        <a href="Login.html" class="side-nav__log-button">
+                            <img class="side-nav__logout-img" src="images/logout.svg">
+                        </a>
                         <a class="side-nav__p" href="Login.html">Log out</a>
                     </div>
                 </li>
@@ -63,11 +61,11 @@
     </header>
     <main>
         <div class="table-stat">
-            <table id="q-graph">
+            <table class="q-graph">
                 <caption>
-                    <select style="width: 160px;" class="box__input">
-                    <option>30 days</option>
-                </select>
+                    <select class="box__input">
+                        <option>30 days</option>
+                    </select>
                 </caption>
                 <thead>
                     <tr>
@@ -77,59 +75,59 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr class="qtr" id="q1">
+                    <tr class="qtr1">
                         <th scope="row">1-7 March</th>
-                        <td class="sent bar" style="height: 111px; color:#EEBBC3">
+                        <td class="sent bar">
                             <p>$18,450.00</p>
                         </td>
-                        <td class="paid bar" style="height: 99px;">
+                        <td class="paid bar">
                             <p>$16,500.00</p>
                         </td>
                     </tr>
-                    <tr class="qtr" id="q2">
+                    <tr class="qtr2">
                         <th scope="row">8-15 March</th>
-                        <td class="sent bar" style="height: 206px;">
+                        <td class="sent bar">
                             <p>$34,340.72</p>
                         </td>
-                        <td class="paid bar" style="height: 194px;">
+                        <td class="paid bar">
                             <p>$32,340.72</p>
                         </td>
                     </tr>
-                    <tr class="qtr" id="q3">
+                    <tr class="qtr3">
                         <th scope="row">16-23 March</th>
-                        <td class="sent bar" style="height: 259px;">
+                        <td class="sent bar">
                             <p>$43,145.52</p>
                         </td>
-                        <td class="paid bar" style="height: 193px;">
+                        <td class="paid bar">
                             <p>$32,225.52</p>
                         </td>
                     </tr>
-                    <tr class="qtr" id="q4">
+                    <tr class="qtr4">
                         <th scope="row">24-31 March</th>
-                        <td class="sent bar" style="height: 110px;">
+                        <td class="sent bar">
                             <p>$18,415.96</p>
                         </td>
-                        <td class="paid bar" style="height: 195px;">
+                        <td class="paid bar">
                             <p>$32,425.00</p>
                         </td>
                     </tr>
                 </tbody>
             </table>
 
-            <div id="ticks">
-                <div class="tick" style="height: 59px;">
+            <div class="ticks">
+                <div class="tick">
                     <p>$50,000</p>
                 </div>
-                <div class="tick" style="height: 59px;">
+                <div class="tick">
                     <p>$40,000</p>
                 </div>
-                <div class="tick" style="height: 59px;">
+                <div class="tick">
                     <p>$30,000</p>
                 </div>
-                <div class="tick" style="height: 59px;">
+                <div class="tick">
                     <p>$20,000</p>
                 </div>
-                <div class="tick" style="height: 59px;">
+                <div class="tick">
                     <p>$10,000</p>
                 </div>
             </div>

@@ -1,3 +1,13 @@
+*{
+    text-decoration: none;
+    font-family: 'Montserrat';
+}
+main{
+    position:absolute;
+    height: 100%;
+    right: 244px;
+    left: 244px;
+}
 .add-button {
     position: absolute;
     cursor: pointer;
@@ -10,6 +20,15 @@
     background: #EEBBC3;
     border-radius: 50px;
 }
+.add-button:hover, .add-button:focus, .expenses-button:hover,
+ .expenses-button:focus, .str__delete-img-button:hover, .str__delete-img-button:focus{
+    opacity: 0.8;
+    outline-color:#ecb2ba;
+}
+.incomes-button:hover, .incomes-button:focus, .str__settings-img-button:hover, .str__settings-img-button:focus{
+    background-color: #d4d8f06c;
+    outline-color: #eebbc3;
+}
 
 .add-button__img {
     position: absolute;
@@ -18,7 +37,7 @@
     margin-left: 20px;
 }
 
-.add-button a {
+.add-button p {
     margin-left: 68px;
     font-weight: 400;
     font-size: 16px;
@@ -77,7 +96,7 @@ main h2 {
 }
 
 .main-table {
-    position: absolute;
+    position: relative;
     width: 832px;
     height: 327px;
     left: 20px;
@@ -239,10 +258,82 @@ main h2 {
 }
 
 @media screen and (max-aspect-ratio: 1/1) {
-    .add-button {
-        width: 60%;
-        left: auto;
-        top: 120px;
-        position: fixed;
+    main{
+        position:absolute;
     }
+    main h2{
+        position: fixed;
+        left: 10%;
+    }
+    .add-button {
+        width: 80%;
+        left: 10%;
+        top: 120px;
+        position:fixed;
+    }
+    .incomes-button {
+        position: fixed;
+        width: 80%;
+        left: 10%;
+    }
+    .expenses-button {
+        position: fixed;
+        width: 80%;
+        left: 10%;
+        top: 315px;
+        border: none;
+        background: #EEBBC3;
+        border-radius: 50px;
+    }
+    .main-table{
+        position:fixed;
+        top: 440px;
+        width: 80%;
+        height: 200px;
+        left: 10%;
+    }
+    .td-type, .td-type-categories{
+        position: fixed;
+        left: 20%;
+        top:480px;
+    }
+    .td-date, .str__shop-img, .str__second-cl{
+        visibility: hidden;
+    }
+    .td-amount{
+        position: fixed;
+        left: 65%;
+        top: 480px;
+    }
+    .str__first-cl, .str__first-cl-categories{
+        position: fixed;
+        left: 20%;
+    }
+    .str__therd-cl{
+        position: fixed;
+        left: 65%;
+    }
+    .main-table__str {
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    }
+    .str__delete-img-button{
+        position: fixed;
+        left: 65%;
+        top: 400px;
+    }
+    .str__settings-img-button{
+        position: fixed;
+        left: 75%;
+        top: 400px;
+    }
+    .categories-table{
+        position:fixed;
+        top: 440px;
+        width: 80%;
+        height: 200px;
+        left: 10%;
+    }
+    
 }

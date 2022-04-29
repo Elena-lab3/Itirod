@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FinTrack</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-    <link rel="stylesheet" href="mainStyles.css">
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="section.css">
@@ -29,7 +28,7 @@
                         <button class="side-nav__log-button">
                             <img class="side-nav__logout-img" src="images/transaction.svg">
                         </button>
-                        <a class="side-nav__a__active" href="FinTrack.html">Transaction</a>
+                        <a class="side-nav__a__active" href="index.html">Transaction</a>
                     </div>
                 </li>
                 <li class="side-nav__li">
@@ -51,11 +50,9 @@
                 <hr>
                 <li class="side-nav__li">
                     <div class="side-nav__str">
-                        <button class="side-nav__log-button">
-                            <a href="Login.html">
-                                <img class="side-nav__logout-img" src="images/logout.svg">
-                            </a>
-                        </button>
+                        <a href="Login.html" class="side-nav__log-button">
+                            <img class="side-nav__logout-img" src="images/logout.svg">
+                        </a>
                         <a class="side-nav__p" href="Login.html">Log out</a>
                     </div>
                 </li>
@@ -64,12 +61,12 @@
     </header>
     <main>
         <div>
-            <button class="add-button">
+            <a href="addForm.html" class="add-button">
                 <div>
                     <img class="add-button__img" src="images/plus.svg"> 
-                    <a href="addForm.html">Add transaction</a>
+                    <p>Add transaction</p>
                 </div> 
-            </button>
+            </a>
         </div>
 
         <h2>History</h2>
